@@ -1,0 +1,39 @@
+body {
+  background-color: #f8f4fc;
+}
+
+.reviewContainer {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  background-color: white;
+}
+
+img {
+  width: 12rem;
+  height: 12rem;
+  border-radius: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  aspect-ratio: 1/1;
+}
+
+#profile {
+  margin: 0 auto;
+}
+
+#name {
+  margin: 0 auto;
+}
+
+#jobTitle {
+  margin: 0 auto;
+}
+
+#text {
+  margin: 0 auto;
+}
+
+#stars {
+  margin: 0 auto;
+}/*# sourceMappingURL=main.css.map */

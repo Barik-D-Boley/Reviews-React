@@ -1,11 +1,16 @@
+@import './Styles/defaultStyle';
+
 body {
     background-color: #f8f4fc;
 }
-.reviewContainer {
+#btnContainer {
+    margin: 0 auto;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     background-color: white;
+    padding: 1rem;
+    width: 45rem;
 }
 img {
     width: 12rem;
@@ -13,6 +18,10 @@ img {
     border-radius: 50%;
     object-fit: cover;
     aspect-ratio: 1 / 1;
+    padding: .6rem;
+}
+#title {
+    text-align: center;
 }
 #profile {
     margin: 0 auto;
@@ -22,10 +31,39 @@ img {
 }
 #jobTitle {
     margin: 0 auto;
+    color: $primary-color;
 }
 #text {
     margin: 0 auto;
+    font-size: 1.5rem;
+    text-align: center;
 }
 #stars {
     margin: 0 auto;
+    margin-bottom: .6rem;
+}
+#rating {
+    margin: 0 auto;
+}
+#randomBtn {
+    font-size: 1.2rem;
+    color: $primary-color;
+    margin: 0 auto;
+    width: 8rem;
+    background-color: #A9D8FF;
+}
+.buttonContainer {
+    display: flex;
+    margin: 0 auto;
+}
+.nextBtn {
+    margin: 1rem .3rem .5rem .3rem;
+    background-color: $review-background;
+    border: none;
+}
+.nextBtnReact {
+    color: $primary-color;
+    &:hover {
+        color: $primary-hover;
+    }
 }

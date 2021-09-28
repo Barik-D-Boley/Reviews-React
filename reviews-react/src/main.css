@@ -2,11 +2,14 @@ body {
   background-color: #f8f4fc;
 }
 
-.reviewContainer {
+#btnContainer {
+  margin: 0 auto;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   background-color: white;
+  padding: 1rem;
+  width: 45rem;
 }
 
 img {
@@ -16,6 +19,11 @@ img {
   -o-object-fit: cover;
      object-fit: cover;
   aspect-ratio: 1/1;
+  padding: 0.6rem;
+}
+
+#title {
+  text-align: center;
 }
 
 #profile {
@@ -28,12 +36,46 @@ img {
 
 #jobTitle {
   margin: 0 auto;
+  color: #6CB4EE;
 }
 
 #text {
   margin: 0 auto;
+  font-size: 1.5rem;
+  text-align: center;
 }
 
 #stars {
   margin: 0 auto;
+  margin-bottom: 0.6rem;
+}
+
+#rating {
+  margin: 0 auto;
+}
+
+#randomBtn {
+  font-size: 1.2rem;
+  color: #6CB4EE;
+  margin: 0 auto;
+  width: 8rem;
+  background-color: #A9D8FF;
+}
+
+.buttonContainer {
+  display: flex;
+  margin: 0 auto;
+}
+
+.nextBtn {
+  margin: 1rem 0.3rem 0.5rem 0.3rem;
+  background-color: #FFFFFF;
+  border: none;
+}
+
+.nextBtnReact {
+  color: #6CB4EE;
+}
+.nextBtnReact:hover {
+  color: #0066b2;
 }/*# sourceMappingURL=main.css.map */

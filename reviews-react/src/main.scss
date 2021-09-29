@@ -1,69 +1,83 @@
 @import './Styles/defaultStyle';
 
 body {
-    background-color: #f8f4fc;
+    background-color: $page-background;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-#btnContainer {
+
+/* App */
+#title {
+    text-align: center;
+}
+
+/* Reviews */
+.buttonContainer { // Makes the forward/back buttons inline
+    display: flex;
+    margin: 0 auto;
+}
+.nextBtn { // Styles the forward/back buttons
+    margin: 1rem .3rem .5rem .3rem;
+    background-color: $review-background;
+    border: none;
+}
+.nextBtnReact { // Changes the Arrows' color in the buttons
+    color: $primary-color;
+    &:hover {
+        color: $primary-hover;
+    }
+}
+#reviewContainer { // Styles the entire review
     margin: 0 auto;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    background-color: white;
-    padding: 1rem;
+    background-color: $review-background;
+    padding: 2rem;
     width: 45rem;
+    box-shadow: 0 0 1.5rem .6rem $box-shadow;
+    border-radius: .4rem;
 }
-img {
+#randomBtn { // Styles the random button
+    font-size: 1.2rem;
+    padding: .3rem;
+    color: $primary-color;
+    margin: 0 auto;
+    width: 8rem;
+    background-color: $random-btn-background;
+    border: none;
+    border-radius: .2rem;
+}
+
+/* User */
+#profile { // Styles the profile picture
+    margin: 0 auto;
     width: 12rem;
     height: 12rem;
     border-radius: 50%;
     object-fit: cover;
     aspect-ratio: 1 / 1;
-    padding: .6rem;
-}
-#title {
-    text-align: center;
-}
-#profile {
-    margin: 0 auto;
+    padding: 0 .6rem .6rem .6rem;
 }
 #name {
     margin: 0 auto;
 }
-#jobTitle {
+#jobTitle { // Centers and capitalizes the job title
     margin: 0 auto;
     color: $primary-color;
-}
-#text {
-    margin: 0 auto;
-    font-size: 1.5rem;
-    text-align: center;
-}
-#stars {
-    margin: 0 auto;
-    margin-bottom: .6rem;
+    text-transform: uppercase;
 }
 #rating {
     margin: 0 auto;
 }
-#randomBtn {
-    font-size: 1.2rem;
-    color: $primary-color;
+#text { // Styles the text in the review
     margin: 0 auto;
-    width: 8rem;
-    background-color: #A9D8FF;
+    font-size: 1.35rem;
+    text-align: center;
+    color: $text-color;
 }
-.buttonContainer {
-    display: flex;
+
+/* Rating */
+#stars {
     margin: 0 auto;
-}
-.nextBtn {
-    margin: 1rem .3rem .5rem .3rem;
-    background-color: $review-background;
-    border: none;
-}
-.nextBtnReact {
-    color: $primary-color;
-    &:hover {
-        color: $primary-hover;
-    }
+    margin-bottom: .6rem;
 }

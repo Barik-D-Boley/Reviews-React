@@ -8,6 +8,7 @@ const Rating = ({rating}) => {
     let star4 = 'empty';
     let star5 = 'empty';
 
+// Depending upon the rating passed into the function, it changes the star variables to the appropriate value
     if (rating >= 5) {
         star1 = 'full';
         star2 = 'full';

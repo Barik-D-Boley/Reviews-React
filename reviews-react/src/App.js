@@ -1,5 +1,4 @@
 import Reviews from './Reviews/Reviews';
-// import data from './Reviews/data';
 
 function App() {
     return (

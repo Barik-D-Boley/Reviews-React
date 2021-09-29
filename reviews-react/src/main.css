@@ -1,67 +1,14 @@
 body {
   background-color: #f8f4fc;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
-#btnContainer {
-  margin: 0 auto;
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  background-color: white;
-  padding: 1rem;
-  width: 45rem;
-}
-
-img {
-  width: 12rem;
-  height: 12rem;
-  border-radius: 50%;
-  -o-object-fit: cover;
-     object-fit: cover;
-  aspect-ratio: 1/1;
-  padding: 0.6rem;
-}
-
+/* App */
 #title {
   text-align: center;
 }
 
-#profile {
-  margin: 0 auto;
-}
-
-#name {
-  margin: 0 auto;
-}
-
-#jobTitle {
-  margin: 0 auto;
-  color: #6CB4EE;
-}
-
-#text {
-  margin: 0 auto;
-  font-size: 1.5rem;
-  text-align: center;
-}
-
-#stars {
-  margin: 0 auto;
-  margin-bottom: 0.6rem;
-}
-
-#rating {
-  margin: 0 auto;
-}
-
-#randomBtn {
-  font-size: 1.2rem;
-  color: #6CB4EE;
-  margin: 0 auto;
-  width: 8rem;
-  background-color: #A9D8FF;
-}
-
+/* Reviews */
 .buttonContainer {
   display: flex;
   margin: 0 auto;
@@ -78,4 +25,66 @@ img {
 }
 .nextBtnReact:hover {
   color: #0066b2;
+}
+
+#reviewContainer {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  background-color: #FFFFFF;
+  padding: 2rem;
+  width: 45rem;
+  box-shadow: 0 0 1.5rem 0.6rem rgba(0, 0, 0, 0.05);
+  border-radius: 0.4rem;
+}
+
+#randomBtn {
+  font-size: 1.2rem;
+  padding: 0.3rem;
+  color: #6CB4EE;
+  margin: 0 auto;
+  width: 8rem;
+  background-color: #D2E8F9;
+  border: none;
+  border-radius: 0.2rem;
+}
+
+/* User */
+#profile {
+  margin: 0 auto;
+  width: 12rem;
+  height: 12rem;
+  border-radius: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  aspect-ratio: 1/1;
+  padding: 0 0.6rem 0.6rem 0.6rem;
+}
+
+#name {
+  margin: 0 auto;
+}
+
+#jobTitle {
+  margin: 0 auto;
+  color: #6CB4EE;
+  text-transform: uppercase;
+}
+
+#rating {
+  margin: 0 auto;
+}
+
+#text {
+  margin: 0 auto;
+  font-size: 1.35rem;
+  text-align: center;
+  color: #808080;
+}
+
+/* Rating */
+#stars {
+  margin: 0 auto;
+  margin-bottom: 0.6rem;
 }/*# sourceMappingURL=main.css.map */

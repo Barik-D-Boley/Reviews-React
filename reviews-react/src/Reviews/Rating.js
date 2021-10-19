@@ -51,21 +51,6 @@ const Rating = ({rating}) => {
         star1 = 'half';
     }
 
-<<<<<<< HEAD
-    // return (
-    //     // have the top for loops change booleans, then an if statement checks if it's true here
-    // )
-
-    // return (
-    //     <div id="stars">
-    //         <BsStarFill />
-    //         <BsStarFill />
-    //         <BsStarHalf />
-    //         <BsStar />
-    //         <BsStar />
-    //     </div>
-    // )
-=======
     return (
         <div id='stars'>
             <Stars input={star1}/>
@@ -75,7 +60,6 @@ const Rating = ({rating}) => {
             <Stars input={star5}/>
         </div>
     )
->>>>>>> 4be759a80c0c8546cff922ddf5becbcf5faffcc3
 }
 
 export default Rating

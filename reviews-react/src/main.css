@@ -1,25 +1,65 @@
 body {
   background-color: #f8f4fc;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.reviewContainer {
+/* App */
+#title {
+  text-align: center;
+}
+
+/* Reviews */
+.buttonContainer {
+  display: flex;
+  margin: 0 auto;
+}
+
+.nextBtn {
+  margin: 1rem 0.3rem 0.5rem 0.3rem;
+  background-color: #FFFFFF;
+  border: none;
+}
+
+.nextBtnReact {
+  color: #6CB4EE;
+}
+.nextBtnReact:hover {
+  color: #0066b2;
+}
+
+#reviewContainer {
+  margin: 0 auto;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  background-color: white;
+  background-color: #FFFFFF;
+  padding: 2rem;
+  width: 45rem;
+  box-shadow: 0 0 1.5rem 0.6rem rgba(0, 0, 0, 0.05);
+  border-radius: 0.4rem;
 }
 
-img {
+#randomBtn {
+  font-size: 1.2rem;
+  padding: 0.3rem;
+  color: #6CB4EE;
+  margin: 0 auto;
+  width: 8rem;
+  background-color: #D2E8F9;
+  border: none;
+  border-radius: 0.2rem;
+}
+
+/* User */
+#profile {
+  margin: 0 auto;
   width: 12rem;
   height: 12rem;
   border-radius: 50%;
   -o-object-fit: cover;
      object-fit: cover;
   aspect-ratio: 1/1;
-}
-
-#profile {
-  margin: 0 auto;
+  padding: 0 0.6rem 0.6rem 0.6rem;
 }
 
 #name {
@@ -28,12 +68,23 @@ img {
 
 #jobTitle {
   margin: 0 auto;
+  color: #6CB4EE;
+  text-transform: uppercase;
+}
+
+#rating {
+  margin: 0 auto;
 }
 
 #text {
   margin: 0 auto;
+  font-size: 1.35rem;
+  text-align: center;
+  color: #808080;
 }
 
+/* Rating */
 #stars {
   margin: 0 auto;
+  margin-bottom: 0.6rem;
 }/*# sourceMappingURL=main.css.map */

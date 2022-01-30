@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import Stars from './Stars';
 
 const Rating = ({rating}) => {
